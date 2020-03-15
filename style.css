@@ -1,5 +1,5 @@
 .header {
-    padding: 5px;
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     color: #ffffff;
@@ -13,6 +13,8 @@
 .header h1 .seo {
     background: white;
     background-color: teal;
+    font-size: 36px;
+    margin-left: 40px;
 }
 
 .header nav {
@@ -57,3 +59,7 @@ p {
     margin: 20px;
 }
 
+.main {
+    padding: 30px;
+    margin-left: 10px;
+}
