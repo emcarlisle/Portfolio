@@ -1,5 +1,5 @@
 .header {
-
+    padding: 5px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: white;
     color: #ffffff;
@@ -37,8 +37,8 @@
 
 .container {
     width: 500px;
-    padding: 50px;
-    margin: 20px;
+    padding: 20px;
+    margin: 45px;
     float: left;
     border: 2px solid black;
     background-color: white;
@@ -59,7 +59,7 @@ p {
     margin: 20px;
 }
 
-.main {
+.contact {
     padding: 30px;
     margin-left: 10px;
 }
