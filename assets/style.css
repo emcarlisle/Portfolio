@@ -35,7 +35,12 @@
     margin-left: 25px;
 }
 
+body {
+    background-color: grey;
+}
+
 .container {
+    position: relative;
     width: 500px;
     padding: 20px;
     margin: 45px;
@@ -58,3 +63,12 @@ p {
     padding: 5px;
     margin: 20px;
 }
+
+.text-block {
+    position: absolute;
+    width: 100px;
+    bottom: 20px;
+    left: 20px;
+    background-color: blue;
+    color: white;
+  }
