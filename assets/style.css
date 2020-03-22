@@ -39,6 +39,7 @@ body {
     background-color: grey;
 }
 
+
 .container {
     position: relative;
     width: 500px;
@@ -73,3 +74,8 @@ p {
     color: white;
 }
 
+@media screen and (max-width: 640px) {
+    .container {
+        width: 300px;
+    }
+}
