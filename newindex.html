@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emily's Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/newstyle.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+
+</head>
+<body class="d-flex flex-column h-100">
+    <header class="header">
+        <!--NavBar-->
+        <div class="row">
+            <div class="col-md-12">
+                <h1><span class="seo">Emily Carlisle</span></h1>
+                <nav class="nav nav-pills nav-justified">
+                    
+                    <div class="nav-item">
+                        <a class="nav-link" id="home-tab" data-toggle="pill" href="#pills-home" role="tab"
+                            aria-controls="pills-home" aria-selected="true">Home
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" id="portfolio-tab" data-toggle="pill" href="#pills-portfolio" role="tab"
+                            aria-controls="pills-profile" aria-selected="false">Portfolio
+                        </a>
+                    </div>
+                    <div class="nav-item">
+                        <a class="nav-link" id="contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+                            aria-controls="pills-contact" aria-selected="false">Contact
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        
+        </div>
+    </header>
+
+   <!--Home Page-->
+    <div class="container" id="home-pg">
+        <main id="section">
+            <h2>About Me</h2>
+            <hr>
+            <img src="assets/portfolio.jpg" class="border border-dark" alt="portfolio-img" id="portfolio-img">
+            <p>My name is Emily Carlisle. I am a full stack developer in training. I have worked in the fine dining industry for over 6 years as a cook and was promoted to a chef and held that position for over 3 years.
+                After awhile, I wanted to explore something different; I wanted something more challenging, something with more financial stability. I looked into KU's Coding Bootcamp for the full stack web development program and started it March 2020.
+            </p>
+        </main>
+        <div class="contact-info">
+            <h2>Contact Info: </h2>
+            <hr>
+            <ul>
+                <li><strong>Github:</strong> <a href="https://github.com/emcarlisle" id="github-link" alt="github-link">Emily Carlisle</a></li>
+                <li><strong>Email:</strong> <a href="emilydeluna96@gmail.com" alt="email">emilydeluna96@gmail.com</a></li>
+                <li><strong>Phone Number: </strong>(510)-468-3897</li>
+            </ul>
+        </div>
+            
+            
+
+
+    </div>
+        
+    <!--Portfolio Page-->
+    <div class="container d-none" id="portfolio-pg">
+        <section id="section">
+            <h2>Portfolio</h2>
+            <hr>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae molestiae nihil asperiores expedita, cumque est quisquam, earum a illo ex eligendi nostrum reiciendis! Nam, quo dolorum! Culpa animi qui eligendi?</p>
+        </section>
+    </div>
+        
+    <!--Contact Page-->    
+    <div class="container d-none" id="contact-pg">
+        <section id="section">
+            <h2>Contact Me Here:</h2>
+            <hr>
+            <form>
+                <div class="form-group">
+                    <label for="InputName">Name</label>
+                    <input type="name" class="form-control" id="InputName">
+                </div>
+            </form>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+            </form>
+            <form>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="Message" rows="3"></textarea>
+                </div>
+            </form>
+            <form>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+               
+            
+            
+            
+            
+        </section>
+
+    </div>
+
+
+
+    
+    
+    
+    
+    
+
+
+
+
+</body>
+
+<script src="assets/script.js"></script>
+</html>
